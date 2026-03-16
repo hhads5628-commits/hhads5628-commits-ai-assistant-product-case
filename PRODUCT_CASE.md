@@ -193,7 +193,109 @@ Response usefulness score
 - Task completion rate
 - Response usefulness rating
 - User retention
+# North Star Metric и система KPI продукта
 
+## 1. North Star Metric
+
+**North Star Metric (NSM)** — это ключевая метрика, которая показывает, что продукт действительно создаёт ценность для пользователя.
+
+Для продукта — AI-ассистента, который помогает пользователю **начать и завершить действие**, North Star Metric можно сформулировать следующим образом:
+
+**Weekly Completed Actions (WCA)**  
+Количество действий, которые пользователи начали и довели до завершения с помощью продукта за неделю.
+
+Эта метрика отражает реальную ценность продукта:
+- пользователь начал действие
+- пользователь не потерял контекст
+- пользователь довёл действие до результата
+
+---
+
+## 2. Формула North Star
+
+NSM можно разложить на три компонента:
+
+NSM = Users × Actions Started × Completion Rate
+
+где:
+
+- **Users** — количество активных пользователей  
+- **Actions Started** — количество начатых действий  
+- **Completion Rate** — доля завершённых действий  
+
+---
+
+## 3. KPI система вокруг North Star
+
+### 1. Acquisition (Привлечение)
+
+Метрики роста аудитории:
+
+- New Users per Week
+- Cost per Acquisition (CPA)
+- Install → Registration Conversion
+
+---
+
+### 2. Activation (Активация)
+
+Показывает, понял ли пользователь ценность продукта.
+
+Ключевое событие — **первое начатое действие**.
+
+KPI:
+
+- Activation Rate  
+  (пользователи, начавшие первое действие / новые пользователи)
+
+- Time to First Action
+
+---
+
+### 3. Engagement (Использование продукта)
+
+Показывает регулярность использования.
+
+KPI:
+
+- Daily Active Users (DAU)
+- Weekly Active Users (WAU)
+- Actions Started per User
+
+---
+
+### 4. Core Value (Ценность продукта)
+
+Метрики, напрямую связанные с North Star.
+
+KPI:
+
+- Action Completion Rate
+- Completed Actions per User
+- Average Action Duration
+- Context Loss Rate
+
+---
+
+### 5. Retention (Удержание пользователей)
+
+Показывает, возвращаются ли пользователи.
+
+KPI:
+
+- Day 1 Retention
+- Day 7 Retention
+- Week 4 Retention
+
+---
+
+## 4. Итог
+
+**North Star Metric продукта:**
+
+Weekly Completed Actions — количество действий, завершённых пользователями с помощью продукта за неделю.
+
+Эта метрика отражает ключевую ценность продукта — способность помогать пользователям **начинать и доводить до конца действия, не теряя контекст**.
 ---
 
 # Возможные A/B эксперименты
