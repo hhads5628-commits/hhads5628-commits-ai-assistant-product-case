@@ -1,0 +1,35 @@
+{
+  "userState": {
+    "energy": "low",
+    "mood": "tired",
+    "timeAvailable": 40
+  },
+  "interaction": {
+    "intent": "continue_action",
+    "stage": "in_progress",
+    "blocked": false
+  },
+  "activeContext": {
+    "text": null
+  },
+  "context": {
+    "locked": true
+  },
+  "memory": {
+    "lastStepSuggested": null,
+    "whatWasProposed": [],
+    "whatDidNotWork": []
+  },
+  "rules": {
+    "requireContextDetection": true,
+    "forbidContextSwitch": true,
+    "semanticLock": true,
+    "singleStepOnly": true,
+    "requirePhysicalOrOperationalStep": true
+  },
+  "preferences": {
+    "stepSize": "very_small",
+    "tone": "no_pressure",
+    "detailLevel": "low"
+  }
+}
